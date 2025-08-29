@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    font-family: Montserrat;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+
+#page{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#page2{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#page3{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+canvas{
+    max-width: 100vw;
+    max-height: 100vh;
+    position: relative;
+    z-index: 99;
+}
+
+#loop{
+    position: absolute;
+    height: 25%;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    top: 25%;
+    font-size: 9vw;
+    display: flex;
+    white-space: nowrap;
+}
+#loop>p{
+    animation-name: scroll;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+span{
+    -webkit-text-stroke: 2px black;
+    color: transparent;
+}
+
+@keyframes scroll{
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5vw;
+    z-index: -1;
+}
+
+nav>p{
+    font-size: 1.6vw;
+}
+
+#inp{
+    font-size: 1.2vw;
+}
+
+#inp>button{
+    width: 6vw;
+    height: 2vw;
+    border-radius: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+#pg-txt{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    width: 32%;
+}
+
+#inp2{
+    position: absolute;
+    padding: 2vw;
+    left: 50%;
+    font-size: 1.2vw;
+}
+
+#pg1-txt1{
+    position: absolute;
+    top: 40%;
+    left: 14%;
+}
+
+#pg1-txt1>h2{
+    font-size: 2.5vw;
+    line-height: 1.5;
+}
+
+#pg1-txt2{
+    position: absolute;
+    top: 52%;
+    right: 8%;
+    text-align: center;
+}
+
+#pg1-txt2>h1{
+    line-height: 1.5;
+    font-size: 2.5vw;
+}
+
+
+#pg2-txt1{
+    position: absolute;
+    top: 40%;
+    left: 14%;
+}
+
+#pg2-txt1>h2{
+    font-size: 3vw;
+    line-height: 1.5;
+}
+
+#pg2-txt2{
+    position: absolute;
+    top: 58%;
+    right: 5%;
+    text-align: center;
+    
+}
+
+#pg2-txt2>p{
+    font-size: 1vw;
+}
+
+#pg3-txt2{
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    text-align:end;
+}
+
+
+#pg3-txt2>h1{
+    font-size: 3.5vw;
+    line-height: 1.3;
+}
