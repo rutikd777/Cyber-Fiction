@@ -48,8 +48,8 @@ img/
 - **Text & Styles:** Edit `index.html` and `style.css` for your own branding.
 
 ## Preview
-- [Start](https://github.com/rutikd777/Cyber-Fiction/blob/main/images/male-1.png)
+![-----------------------------------------------------](https://github.com/rutikd777/Cyber-Fiction/blob/main/images/male-1.png)
 
-- [Middle](https://github.com/rutikd777/Cyber-Fiction/blob/main/images/male-2.png)
+![-----------------------------------------------------](https://github.com/rutikd777/Cyber-Fiction/blob/main/images/male-2.png)
 
-- [End](https://github.com/rutikd777/Cyber-Fiction/blob/main/images/male-3.png)
+![-----------------------------------------------------](https://github.com/rutikd777/Cyber-Fiction/blob/main/images/male-3.png)
